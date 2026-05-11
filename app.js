@@ -33,8 +33,8 @@ async function loadData() {
 const views = {
     inicio: () => `
         <div class="hero">
-            <h2>Bienvenido a SyncPro</h2>
-            <p>Una plataforma centralizada para visualizar talentos excepcionales y gestionar el progreso de tus proyectos con eficiencia y estilo.</p>
+            <h2>Bienvenidos</h2>
+            <p>Este proyecto es un trabajo entregable académico para la Universidad Católica Luis Amigó, enfocado en presentar nuestros perfiles profesionales y la gestión del proyecto.</p>
         </div>
     `,
 
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const contentArea = document.getElementById('content-area');
     const pageTitle = document.getElementById('page-title'); // Se puede ocultar o cambiar ya que es una sola página
 
-    if (pageTitle) pageTitle.textContent = "Portafolio & Proyectos";
+    if (pageTitle) pageTitle.textContent = "Portafolio y Proyectos";
 
     // Estado de carga inicial
     contentArea.innerHTML = '<div style="text-align:center; padding: 3rem; color: var(--text-muted);">Conectando con Supabase... 🚀</div>';
