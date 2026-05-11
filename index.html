@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio & Gestión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation -->
+        <nav class="top-nav glass-panel">
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <h2>SyncPro</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" data-route="inicio" class="active">Inicio</a></li>
+                <li><a href="#" data-route="cvs">Hojas de Vida</a></li>
+                <li><a href="#" data-route="proyecto">Gestión de Proyecto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-header">
+                <h1 id="page-title">Inicio</h1>
+                <div class="user-profile">
+                    <img src="https://i.pravatar.cc/150?img=11" alt="User Avatar" class="avatar">
+                </div>
+            </header>
+            
+            <div id="content-area" class="content-area">
+                <!-- Content injected here via JS -->
+            </div>
+        </main>
+    </div>
+    
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="app.js"></script>
+</body>
+</html>
